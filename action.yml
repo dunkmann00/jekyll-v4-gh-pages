@@ -45,6 +45,6 @@ runs:
       uses: actions/upload-pages-artifact@v1
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v1
+      uses: actions/deploy-pages@v2
       with:
         token: ${{ inputs.token }}
